@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+figure {
+    height: 865px;
+    width: 900px;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 470px;
+    height: 200px;
+    width: 899px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tree-picture {
+    height: 100%;
+    width: 100%;
+}
+
+.odin-logo {
+    width: 120px;
+    opacity: 1;
+}
+
+.odin-logo-text {
+    font-size: 100px;
+    color: white;
+    font-family: 'Tinos', serif;
+}
+
+.footer-text {
+    position: absolute;
+    left: 345px;
+    bottom: 3px;
+    color: white;
+}
+
+.footer-link {
+    color: white;
+}
