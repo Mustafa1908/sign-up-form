@@ -1,15 +1,30 @@
+:root {
+    --white: white;
+    --red: red;
+    --black: black;
+    --dark-green: #596D48;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
 
+body {
+    background-color: rgb(236, 235, 235);
+}
+
+.figure-section-container {
+    display: flex;
+}
+
 figure {
     height: 865px;
     width: 900px;
 }
 
-.figure-container {
+.logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +47,7 @@ figure {
 
 .odin-logo-text {
     font-size: 100px;
-    color: white;
+    color: var(--white);
     font-family: 'Tinos', serif;
 }
 
@@ -40,9 +55,140 @@ figure {
     position: absolute;
     left: 345px;
     bottom: 3px;
-    color: white;
+    color: var(--white);
 }
 
 .footer-link {
-    color: white;
+    color: var(--white);
 }
+
+section {
+    height: 865px;
+    width: 1010px
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 855px;
+    width: 1000px;
+}
+
+.lorem-ipsum-container {
+    margin-top: 20px;
+    width: 712px;
+}
+
+.lorem-ipsum-container-two {
+    display: flex;
+}
+
+.lorem-ipsum-container, .lorem-ipsum-container-two {
+    padding-left: 50px;
+}
+
+.lorem-ipsum-text {
+    width: 800px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign-up-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1007px;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    width: 1007px;
+    height: 297px;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 3px solid rgb(20, 194, 20);
+}
+
+input:user-invalid {
+    border: 2px solid var(--red);
+}
+
+.left-row-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.password-no-match {
+    height: 20px;
+}
+
+.form-input {
+    width: 220px;
+    height: 25px;
+}
+
+.input-text {
+    font-size: 12px;
+    color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-row-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+    padding-top: 72px;
+}
+
+.right-side-page-footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 30px;
+}
+
+input[type="submit"] {
+    border: 1px solid var(--black);
+}
+
+.create-account-button {
+    background-color: var(--dark-green);
+    border-radius: 14px;
+    width: 215px;
+    height: 50px;
+}
+
+.create-account-button:hover {
+    cursor: pointer;
+}
+
+.create-account-button[value] {
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.right-side-page-footer-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 16, 16);
+}
+
+.right-side-page-footer-text a {
+    text-decoration: none;
+}
+
+.right-side-page-footer-text span {
+    color: var(--dark-green);
+}
+
