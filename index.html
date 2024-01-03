@@ -9,13 +9,81 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <figure>
-            <img src="images/arun.jpg" class="tree-picture" alt="A tree with some leaves around it">
-            <div class="figure-container">
-                <img src="images/odin.png" class="odin-logo" alt="A logo representing the odin project">
-                <span class="odin-logo-text">ODIN</span>
-            </div>
-            <span class="footer-text">Photo by <a class="footer-link" href="https://unsplash.com/photos/green-ferns-on-selective-focus-photography-5vLPyrbf5Tc" target="_blank">Arun Clarke</a> on <a class="footer-link" href="https://unsplash.com/" target="_blank">Unsplash</a></span>
-    </figure>
+    <div class="figure-section-container">
+        <figure>
+                <img src="images/arun.jpg" class="tree-picture" alt="A tree with some leaves around it">
+                <div class="logo-container">
+                    <img src="images/odin.png" class="odin-logo" alt="A logo representing the odin project">
+                    <span class="odin-logo-text">ODIN</span>
+                </div>
+                <span class="footer-text">Photo by <a class="footer-link" href="https://unsplash.com/photos/green-ferns-on-selective-focus-photography-5vLPyrbf5Tc" target="_blank">Arun Clarke</a> on <a class="footer-link" href="https://unsplash.com/" target="_blank">Unsplash</a></span>
+        </figure>
+        <section>
+            <div class="form-container">
+                <div class="lorem-ipsum-container">
+                    <span class="lorem-ipsum-text">
+                        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.  Sign up now to get started.
+                    </span>  
+                </div>
+                <div class="lorem-ipsum-container-two">
+                    <span class="lorem-ipsum-text">You know you want to.</span>
+                </div>
+                <div class="sign-up-container">
+                    <form>
+                        <div class="left-row-container">
+                            <div class="form-text-container">
+                                <span class="lorem-ipsum-text">Let's do this</span>
+                            </div>
+                        
+                            <div class="first-name-container">
+                                <label for="first-name">
+                                    <span class="input-text">*FIRST NAME</span><br>
+                                    <input type="text" class="form-input" id="first-name" name="first-name" required>
+                                </label>
+                            </div>
+                            <div class="email-container">
+                                <label for="user-email">
+                                    <span class="input-text">*EMAIL</span><br>
+                                    <input type="email" class="form-input"  id="user-email" name="user-email" required>
+                                </label>
+                            </div> 
+                            <div class="password-container">
+                                <label for="user-password">
+                                    <span class="input-text">*PASSWORD</span><br>
+                                    <input type="password" class="form-input"  id="user-password" name="user-password" required>
+                                    <div class="password-no-match"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="right-row-container"> 
+                            <div class="last-name-container">
+                                <label for="last-name">
+                                    <span class="input-text">*LAST NAME</span><br>
+                                    <input type="text" class="form-input" id="last-name" name="last-name" required>
+                                </label>
+                            </div>
+                            <div class="phone-number-container">
+                                <label for="phone-number">
+                                    <span class="input-text">*PHONE NUMBER</span><br>
+                                    <input type="tel" class="form-input"  id="phone-number" name="phone-number" required>
+                                </label>
+                            </div> 
+                            <div class="confirm-password-container">
+                                <label for="confirm-password">
+                                    <span class="input-text">*CONFIRM PASSWORD</span><br>
+                                    <input type="password" class="form-input"  id="confirm-password" name="confirm-password" required>
+                                </label>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="right-side-page-footer-container">
+                        <input type="submit" class="create-account-button" value="Create Account">
+                        <span class="right-side-page-footer-text">Already have an account? <a href="https://www.google.com/" target="_blank"><span>Log in</span></a></span>
+                        </div>
+                    </form>
+                </div>
+        
+        </section>
+    </div>    
 </body>
 </html>
