@@ -24,6 +24,11 @@ figure {
     width: 900px;
 }
 
+.image-container {
+    height: 865px;
+    width: 900px;
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
@@ -191,4 +196,3 @@ input[type="submit"] {
 .right-side-page-footer-text span {
     color: var(--dark-green);
 }
-
